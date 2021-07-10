@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 import matplotlib.pyplot as plt
 
-path = "G:\\CALISMALAR\\mikrobiyoloji_projesi\\datasetler\\Mikro_basic\\Mikro_basic_hard_aug_pascalvoc\\train"  #Source path of your images and xml files. This path shouldn't contain subdirectory
+path = "C:\\your\\folderpath"  #Source path of your images and xml files. This path shouldn't contain subdirectory. If you run in Windows you can use "\\" seperator. In UNIX/LINUX use "/" seperator
  
 class_name=""
 dict={}
